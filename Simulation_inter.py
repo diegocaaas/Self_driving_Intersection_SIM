@@ -1,17 +1,5 @@
 import random
 
-"""
-2PX3 Intersection Simulation Starting Code 
-
-Simulation for a "cautious" intersection. Modelling choices:
-1) A vehicles arrives from N, E, S, or W and must wait for other cars
-ahead of them to clear the intersection.
-2) Only one car can be "clearing" the intersection at once.
-3) Before a car can begin to clear the intersection, it must come to a stop
-4) Cars will clear the intersection in a one-at-a-time counter-clockwise manner
-
-Dr. Vincent Maccio 2022-02-01 
-"""
 
 #Constants
 ARRIVAL = "Arrival"
